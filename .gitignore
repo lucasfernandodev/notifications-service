@@ -36,22 +36,3 @@ lerna-debug.log*
 !.vscode/extensions.json
 
 # PRISMA
-vendor/
-tmp/
-.DS_Store
-.idea
-tmp-resolvers
-package-lock.json
-flow-typed
-javascript/**/migrations/
-typescript/**/migrations/
-misc/*
-*/migrations/
-databases/*
-*/migrations/
-experimental/**/*.db
-.next
-.vscode/
-.nuxt
-dev.db
-*.env*
