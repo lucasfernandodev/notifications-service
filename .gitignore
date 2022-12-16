@@ -13,6 +13,7 @@ lerna-debug.log*
 
 # OS
 .DS_Store
+.env
 
 # Tests
 /coverage
@@ -33,3 +34,24 @@ lerna-debug.log*
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+# PRISMA
+vendor/
+tmp/
+.DS_Store
+.idea
+tmp-resolvers
+package-lock.json
+flow-typed
+javascript/**/migrations/
+typescript/**/migrations/
+misc/*
+*/migrations/
+databases/*
+*/migrations/
+experimental/**/*.db
+.next
+.vscode/
+.nuxt
+dev.db
+*.env*
